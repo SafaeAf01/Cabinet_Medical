@@ -1,0 +1,14 @@
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\bin\Debug\net6.0-windows\CabinetMedical.exe
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\bin\Debug\net6.0-windows\CabinetMedical.deps.json
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\bin\Debug\net6.0-windows\CabinetMedical.runtimeconfig.json
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\bin\Debug\net6.0-windows\CabinetMedical.dll
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\bin\Debug\net6.0-windows\CabinetMedical.pdb
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.AssemblyInfoInputs.cache
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.AssemblyInfo.cs
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.csproj.CoreCompileInputs.cache
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.dll
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\refint\CabinetMedical.dll
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.pdb
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.genruntimeconfig.cache
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\ref\CabinetMedical.dll

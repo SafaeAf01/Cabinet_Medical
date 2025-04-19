@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\FormAffichage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormClasserParAge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormClasserParSexe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormMedecin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormParSpecialite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPatientPrioritaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
