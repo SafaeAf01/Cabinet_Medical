@@ -2,6 +2,14 @@
 
 Cette application Windows Forms permet la gestion complète des patients, médecins et consultations d'un cabinet médical.
 
+## Informations sur le projet
+
+- **Développeur** : SAFAE AFOURAOU
+- **Institution** : Faculté des Sciences Fès - Université Sidi Mohamed Ben Abdellah
+- **Formation** : Master Ingénierie Smart Systèmes, Réseaux et Gestion de Projets (ISSRGP)
+- **Module** : CSHARP
+- **Enseignant** : Youness KHAMLICHI
+
 ## Fonctionnalités principales
 
 - **Gestion des patients** :
@@ -80,5 +88,13 @@ Cette application Windows Forms permet la gestion complète des patients, médec
    - Menus déroulants pour une navigation plus intuitive
    - Formulaires dédiés pour la gestion des médecins et consultations
    - Interface cohérente et moderne
+
+## Caractéristiques techniques
+
+- Développé en C# avec .NET Framework
+- Architecture orientée objet
+- Interface utilisateur Windows Forms
+- Gestion des erreurs et validation des données
+- Organisation modulaire du code
 
 ## Développé selon les spécifications du document "C Sharp_Projet_CabinetMediacal.pdf" avec l'implémentation des extensions proposées

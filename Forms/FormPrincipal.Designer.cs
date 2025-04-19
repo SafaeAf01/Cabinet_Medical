@@ -55,9 +55,14 @@ namespace CabinetMedical.Forms
             this.btnParAge = new System.Windows.Forms.Button();
             this.btnParSpecialite = new System.Windows.Forms.Button();
             this.btnQuitter = new System.Windows.Forms.Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.lblDeveloper = new System.Windows.Forms.Label();
             this.grpInfoPatient.SuspendLayout();
             this.grpListeAttente.SuspendLayout();
             this.grpActions.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // grpInfoPatient
@@ -335,12 +340,42 @@ namespace CabinetMedical.Forms
             this.btnQuitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Bold);
             this.btnQuitter.Click += new System.EventHandler(this.btnQuitter_Click);
             // 
+            // panelLogo
+            //
+            this.panelLogo.BackColor = System.Drawing.Color.White;
+            this.panelLogo.Controls.Add(this.pictureBoxLogo);
+            this.panelLogo.Controls.Add(this.lblDeveloper);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelLogo.Location = new System.Drawing.Point(0, 380);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(934, 80);
+            this.panelLogo.TabIndex = 9;
+            //
+            // pictureBoxLogo
+            //
+            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 5);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(500, 70);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            //
+            // lblDeveloper
+            //
+            this.lblDeveloper.AutoSize = true;
+            this.lblDeveloper.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDeveloper.Location = new System.Drawing.Point(600, 20);
+            this.lblDeveloper.Name = "lblDeveloper";
+            this.lblDeveloper.Size = new System.Drawing.Size(319, 39);
+            this.lblDeveloper.TabIndex = 1;
+            this.lblDeveloper.Text = "Développé par: SAFAE AFOURAOU\r\nMaster Ingénierie Smart Systèmes, Réseaux et Gestion de Projets (ISSRGP)\r\nEnseignant: Youness KHAMLICHI - Faculté des Sciences Fès";
+            //
             // FormPrincipal
             //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(934, 380);
+            this.ClientSize = new System.Drawing.Size(934, 460);
             this.Controls.Add(this.btnParSexe);
             this.Controls.Add(this.btnParAge);
             this.Controls.Add(this.btnParSpecialite);
@@ -348,6 +383,7 @@ namespace CabinetMedical.Forms
             this.Controls.Add(this.grpActions);
             this.Controls.Add(this.grpListeAttente);
             this.Controls.Add(this.grpInfoPatient);
+            this.Controls.Add(this.panelLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormPrincipal";
@@ -357,6 +393,9 @@ namespace CabinetMedical.Forms
             this.grpInfoPatient.PerformLayout();
             this.grpListeAttente.ResumeLayout(false);
             this.grpActions.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -388,5 +427,8 @@ namespace CabinetMedical.Forms
         private System.Windows.Forms.Button btnParSpecialite;
         private System.Windows.Forms.Button btnParAge;
         private System.Windows.Forms.Button btnParSexe;
+        private System.Windows.Forms.Panel panelLogo;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Label lblDeveloper;
     }
 }

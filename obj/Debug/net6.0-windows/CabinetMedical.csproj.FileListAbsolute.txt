@@ -12,3 +12,4 @@ C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\refint
 C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.pdb
 C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.genruntimeconfig.cache
 C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\ref\CabinetMedical.dll
+C:\Users\RSS\Desktop\ProjetCsharp\CabinetMedical\obj\Debug\net6.0-windows\CabinetMedical.sourcelink.json

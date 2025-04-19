@@ -35,6 +35,9 @@ namespace CabinetMedical.Forms
                 
             // Initialize menu items
             InitializeMenu();
+            
+            // Load faculty logo
+            LoadLogo();
         }
         
         private void InitializeMenu()
@@ -292,6 +295,31 @@ namespace CabinetMedical.Forms
             }
         }
 
+        private void LoadLogo()
+        {
+            try
+            {
+                // Try to load the logo image
+                string logoPath = System.IO.Path.Combine(Application.StartupPath, "Resources", "logo_faculte.png");
+                if (System.IO.File.Exists(logoPath))
+                {
+                    pictureBoxLogo.Image = Image.FromFile(logoPath);
+                }
+                else
+                {
+                    // If the file doesn't exist, set the label text as a placeholder
+                    lblDeveloper.Text = "Développé par: SAFAE AFOURAOU\r\n" +
+                                        "Master Ingénierie Smart Systèmes, Réseaux et Gestion de Projets (ISSRGP)\r\n" +
+                                        "Enseignant: Youness KHAMLICHI - Faculté des Sciences Fès";
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any errors without crashing
+                System.Diagnostics.Debug.WriteLine("Error loading logo: " + ex.Message);
+            }
+        }
+
         private void AfficherInformationsPatient(Patient patient)
         {
             txtNom.Text = patient.Nom;
@@ -301,5 +329,6 @@ namespace CabinetMedical.Forms
             dtpDateNaissance.Value = patient.DateNaissance;
             cmbSpecialite.SelectedItem = patient.SpecialiteDemandee;
         }
+        
     }
 }

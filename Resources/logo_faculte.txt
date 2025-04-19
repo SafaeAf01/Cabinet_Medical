@@ -1,0 +1,1 @@
+Ce fichier est un espace réservé pour le logo de la faculté. Dans une implémentation réelle, vous devriez remplacer ce fichier par une image véritable (png, jpg) du logo de la faculté des sciences de Fès.
