@@ -8,7 +8,7 @@ Cette application Windows Forms permet la gestion complète des patients, médec
 - **Institution** : Faculté des Sciences Fès - Université Sidi Mohamed Ben Abdellah
 - **Formation** : Master Ingénierie Smart Systèmes, Réseaux et Gestion de Projets (ISSRGP)
 - **Module** : CSHARP
-- **Enseignant** : Younes LAKHRISS
+- **Enseignant** : Younes LAKHRISSI
 
 ## Fonctionnalités principales
 
